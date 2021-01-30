@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CursoApiDotnet\\CursoApiDotnet.csproj": {}
+  },
+  "projects": {
+    "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CrudMvcDotnet\\CrudMvcDotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CrudMvcDotnet\\CrudMvcDotnet.csproj",
+        "projectName": "CrudMvcDotnet",
+        "projectPath": "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CrudMvcDotnet\\CrudMvcDotnet.csproj",
+        "packagesPath": "C:\\Users\\sdsde\\.nuget\\packages\\",
+        "outputPath": "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CrudMvcDotnet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sdsde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CursoApiDotnet\\CursoApiDotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CursoApiDotnet\\CursoApiDotnet.csproj",
+        "projectName": "CursoApiDotnet",
+        "projectPath": "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CursoApiDotnet\\CursoApiDotnet.csproj",
+        "packagesPath": "C:\\Users\\sdsde\\.nuget\\packages\\",
+        "outputPath": "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CursoApiDotnet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sdsde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CrudMvcDotnet\\CrudMvcDotnet.csproj": {
+                "projectPath": "D:\\cursos\\dio-avanade-fullstack-developer\\crud_mvc_dotnet\\CrudMvcDotnet\\CrudMvcDotnet\\CrudMvcDotnet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

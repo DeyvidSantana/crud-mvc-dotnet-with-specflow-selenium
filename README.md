@@ -1,22 +1,22 @@
-# Crud MVC API Dotnet with Specflow and Selenium
-This repository contains a .NET Core solution with MVC and API projects. It also has a Unit Test solution using Specflow and Selenium. For more information check the README file.
+# Crud MVC API Dotnet com Specflow/Selenium
+Este repositório contém uma solução .NET Core com projetos MVC e API. Ele também tem uma solução de teste de unidade usando Specflow e Selenium. Para obter mais informações, verifique o arquivo README.
 
-- CrudMvcDotnet solution
+- Solução CrudMvcDotnet
   
-  This .NET solution includes examples of MVC and API projects. CRUD is a simple product registration screen and its categories.
-  The application database is SQL Server. EntityFramework is used in the project as well as migrations.
-  Used Nuget packages:
+   Esta solução .NET inclui exemplos de projetos MVC e API. O CRUD é uma tela simples de registro do produto e suas categorias.
+   O banco de dados do sistema é o SQL Server. O EntityFramework é usado no projeto, bem como as migrations.
+   Pacotes Nuget usados:
     - MVC: Microsoft.EntityFrameworkCore.SqlServer, Microsoft.EntityFrameworkCore.Tools. 
     - API: Microsoft.EntityFrameworkCore.Tools, Swashbuckle.AspNetCore (Swagger optional)
     
-- CrudMvcDotnetSpec solution
+- Solução CrudMvcDotnetSpec
 
-  This .NET solution includes example of unit test framework with Specflow and Selenium.
-  Used Nuget packages: Selenium (Support, WebDriver, WebDriver.ChromeDriver), Specflow, Specflow.MsTest
+  Esta solução .NET inclui um exemplo de estrutura de teste de unidade com Specflow e Selenium.
+  Pacotes Nuget usados: Selenium (Support, WebDriver, WebDriver.ChromeDriver), Specflow, Specflow.MsTest
   
-- To run the MVC project in the CrudMvcDotnet solution, you start the application by accessing the port on the project property in the browser.
-- To run the API project on the CrudMvcDotnet solution, you start the application and check it using Swagger or Postman.
-- To run the test project on the CrudMvcDotnetSpec solution, you start the MVC CrudMvcDotnet application and run the tests in the explorer.
+- Para executar o projeto MVC na solução CrudMvcDotnet, você inicia a aplicação acessando a porta presente na propriedade do projeto no navegador.
+- Para executar o projeto de API na solução CrudMvcDotnet, você inicia a aplicação e verifica usando Swagger ou Postman.
+- Para executar o projeto de teste na solução CrudMvcDotnetSpec, você inicia a aplicação MVC CrudMvcDotnet e executa os testes no explorer.
   
  
   
